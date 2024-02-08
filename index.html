@@ -3,18 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/globalStyle.css">
+    <link rel="stylesheet" href="style/indexStyle.css">
     <title>LabAdmin</title>
 </head>
 <body>
+   
     <header>
-        <h1>LabAdmin</h1>
+        <div id="logo-container">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div id="title-container">
+            <h1>LabAdmin</h1>
+            <h2>Universidad de Guadalajara</h2>
+        </div>
     </header>
+    
     <main>
-        <section>
-            <h2>Introduccion</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quibusdam aperiam dolor in, recusandae consectetur cum ratione odio repellendus quos illum minus laudantium vel ipsa illo odit neque, suscipit nihil.</p>
+        <section id="introduction-section">
+            <h2>Universidad de Guadalajara</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio quasi quos consequuntur dolores cumque repellendus eum repellat at, qui ex eveniet eligendi obcaecati exercitationem numquam fugiat, voluptates, laboriosam consectetur?</p>
+        </section>
+
+        <section id="login-section">
+            <div id="login-form">
+                <h2>Ingreso</h2>
+                <p>Accede a tu cuenta usando tus credenciales</p>
+                <form action="" method="post">
+                    <label for="input-username">Usuario</label>
+                    <input type="text" name="input-username" id="input-username">
+                    <label for="input-password">Clave</label>
+                    <input type="password" name="input-password" id="input-password">
+                    <input type="submit" value="Ingresar">
+                </form>
+                <a href="http://">Registrarse</a>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <p>Proyecto Modular - 2024</p>
+    </footer>
 </body>
 </html>
