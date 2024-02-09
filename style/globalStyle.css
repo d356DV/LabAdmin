@@ -36,6 +36,13 @@ header #title-container{
     height: 90%;
 }
 
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     display: flex;
     justify-content: center;
