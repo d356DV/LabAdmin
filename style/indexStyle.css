@@ -10,3 +10,11 @@ section{
     border: 1px solid black;
     border-radius: 10px
 }
+
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+
