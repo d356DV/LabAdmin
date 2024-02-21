@@ -11,6 +11,8 @@ Este proyecto ayudara no solo al centro universitario a poder hacer un control m
 La organización es crucial para todo fin, es por eso que el propósito de LabAdmin es mantener el orden y
 la armonía de todo laboratorio para el beneficio en común de toda la comunidad universitaria.
 
+Soy fabiola descargue este proyecto.
+
 Technical
 
  - PHP 8.1 - PDO
