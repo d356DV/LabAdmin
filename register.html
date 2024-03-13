@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/globalStyle.css">
-    <link rel="stylesheet" href="style/indexStyle.css">
-    <title>LabAdmin</title>
+    <title>Registro</title>
 </head>
 <body>
-   
+    
     <header>
         <div id="logo-container">
             <a href="./index.html">
@@ -20,7 +19,7 @@
             <h2>Universidad de Guadalajara</h2>
         </div>
     </header>
-    
+
     <main>
         <section class="text-section">
             <h2>Bienvenido!</h2>
@@ -28,21 +27,20 @@
         </section>
 
         <section class="input-section">
-            <h2>Ingreso</h2>
-            <p>Accede a tu cuenta usando tus credenciales</p>
+            <h2>Registro</h2>
+            <p>Ingresa tus datos para generar una cuenta. La cuenta solo estara activa despues de ser aprobada por un administrador.</p>
             
             <form action="" method="post">
                 <label for="username">Usuario:</label>
-                <input type="text" name="username" id="username"> 
+                <input type="text" name="username" id="username">
+                <label for="code">Codigo:</label>
+                <input type="text" name="code" id="code">
                 <label for="password">Clave:</label>
                 <input type="password" name="password" id="password">
+                <label for="password-verify">Confirma la clave:</label>
+                <input type="password" name="password-verify" id="password-verify">
                 <input type="submit" value="Ingresar">
             </form>
-        </section>
-
-        <section class="text-section">
-            <h2>No tienes cuenta?</h2>
-            <p><a href="./register.html">Registrate</a></p>
         </section>
     </main>
 
